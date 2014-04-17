@@ -1,0 +1,125 @@
+/*
+VARIABLES
+*/
+$borderColor:	#dddddd;
+
+a{
+
+	color: #c1272d;
+
+	&:hover{
+		color: darken( #c1272d, 10% );
+	}
+}
+
+.title-card{
+
+	display: table;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+	position: relative;
+	overflow: hidden;
+
+	> .in{
+
+		display: table-cell;
+		vertical-align: middle;
+
+		.headline{
+
+			color: #ffffff;
+			font-size: 1.5em;
+
+			h1{
+
+				img{
+					margin-bottom: 2em;
+				}
+
+			}
+			p{
+
+			}
+
+		}
+
+	}
+
+}
+
+.header{
+
+	background: #fff;
+	border-bottom-color: $borderColor;
+
+	h1,
+	h1 a,
+	h1 a:visited{
+		color: #333;
+	}
+
+	a:hover{
+		text-decoration: underline;
+	}
+
+	li{
+
+		border-right-color: $borderColor;
+
+		a{
+			color: #555;
+		}
+
+	}
+
+}
+
+.menubar{
+
+	background: #f8f8f8;
+	border-right-color: #ddd;
+
+}
+
+.menu a, .menu a:visited{
+	color: #c1272d;
+}
+.menu a:hover{
+	color: darken( #c1272d, 10% );
+}
+
+.menu a.level-1{
+
+	color: #454545;
+
+	&:hover{
+		color: #000000;
+	}
+
+}
+
+.menu a.active:after{
+	background-color: #999999;
+}
+
+
+.content{
+
+	a:hover{
+		text-decoration: underline;
+	}
+
+}
+
+.content i, .content em{
+	color: #acacac;
+}
+.content h4,
+.content h5,
+.content .small-heading,
+body:not(.big-h3) .content h3{
+
+	color: #454545;
+
+}
