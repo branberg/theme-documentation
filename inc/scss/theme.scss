@@ -5,10 +5,10 @@ $borderColor:	#dddddd;
 
 a{
 
-	color: #c1272d;
+	//color: #c1272d;
 
 	&:hover{
-		color: darken( #c1272d, 10% );
+		//color: darken( #c1272d, 10% );
 	}
 }
 
@@ -83,15 +83,15 @@ a{
 }
 
 .menu a, .menu a:visited{
-	color: #c1272d;
+	//color: #c1272d;
 }
 .menu a:hover{
-	color: darken( #c1272d, 10% );
+	//color: darken( #c1272d, 10% );
 }
 
 .menu a.level-1{
 
-	color: #454545;
+	color: #454545 !important;
 
 	&:hover{
 		color: #000000;

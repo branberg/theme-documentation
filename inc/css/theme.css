@@ -1,11 +1,6 @@
 /*
 VARIABLES
 */
-a {
-  color: #c1272d; }
-  a:hover {
-    color: #971e23; }
-
 .title-card {
   display: table;
   width: 100%;
@@ -40,14 +35,8 @@ a {
   background: #f8f8f8;
   border-right-color: #ddd; }
 
-.menu a, .menu a:visited {
-  color: #c1272d; }
-
-.menu a:hover {
-  color: #971e23; }
-
 .menu a.level-1 {
-  color: #454545; }
+  color: #454545 !important; }
   .menu a.level-1:hover {
     color: #000000; }
 
